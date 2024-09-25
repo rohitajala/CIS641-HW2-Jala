@@ -31,4 +31,4 @@ LinkedIn: LinkedIn Profile
 Phone: +1 (616) 232-5765 
 
 # **MeMe**
-<img src =" https://parade.com/.image/t_share/MTkwNTgxMjEzMzE1MDE1ODA1/smiles-quotes-2.jpg">
+<img src = "https://parade.com/.image/t_share/MTkwNTgxMjEzMzE1MDE1ODA1/smiles-quotes-2.jpg">
