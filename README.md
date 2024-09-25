@@ -1,9 +1,9 @@
-# **Hi there! I'm Rohita Jahnavi Jala** # 👋
+# **Hi there! I'm Rohita Jahnavi Jala** 👋
 
 ## About Me
 I am currently pursuing a **Master's in Applied Computer Science** at Grand Valley State University, with a strong focus on data analytics and computer science. I’m passionate about applying my skills to solve complex challenges and drive business insights.
 
-# **Technical Background **
+# Technical Background
 - 🌐 **Network Engineer at Airtel**: I began my career as a Network Engineer, where I developed a solid foundation in network infrastructure and telecommunications.  
 - 🌍 **GIS Engineer at RMSI**: Transitioning into GIS, I worked at RMSI, utilizing Geographic Information Systems to manage spatial data and provide insights into geographical projects.  
 - 💼 **Senior Data Engineer at Accenture**: I moved to Accenture, where I supported clients and managers as a Senior Data Engineer. I helped evaluate and prioritize work, providing daily status reports for effective project management as a Data Analyst.  
@@ -25,8 +25,10 @@ I am currently pursuing a **Master's in Applied Computer Science** at Grand Vall
 
 ### *Contact* 
 Email: Jalar@mail.gvsu.edu 
+
 LinkedIn: LinkedIn Profile 
+
 Phone: +1 (616) 232-5765 
 
 # **MeMe**
-<img src =" https://parade.com/.image/t_share/MTkwNTgxMjEzMzE1MDE1ODA1/smiles-quotes-2.jpg ">
+<img src =" https://parade.com/.image/t_share/MTkwNTgxMjEzMzE1MDE1ODA1/smiles-quotes-2.jpg">
