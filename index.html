@@ -3,60 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohita Jahnavi Jala - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            padding: 10px 0;
-            text-align: center;
-        }
-        section {
-            padding: 20px 0;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+    <title>Rohita Jahnavi Jala - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Rohita Jahnavi Jala - Personal Portfolio</h1>
+        <h1>Rohita Jahnavi Jala</h1>
+        <h2>Personal Portfolio</h2>
+        <p>Email: roohitajala10@gmail.com | Phone: +1 616-232-5765</p>
     </header>
 
-    <section>
+    <section class="about">
         <h2>About Me</h2>
-        <p>Hello! I am Rohita Jahnavi Jala, currently pursuing my Master's in Applied Computer Science at Grand Valley State University. I am passionate about learning new technologies across different sectors, especially in big data, edge computing, and networking. I have experience in data analysis, GIS, and network engineering, and I am always eager to take on new challenges and expand my skills.</p>
-        <p>My interests include traveling, exploring different places, and spending time with kids and elderly people. I also enjoy spending time at the beach, as it's one of my favorite spots to relax and reflect. I am deeply interested in developing innovative solutions to real-world problems and believe in the power of collaboration and teamwork to achieve success.</p>
+        <p>I am a Senior Data Engineer with experience as a GIS Engineer. I have worked on developing data solutions and analyzing geospatial information to support decision-making. I enjoy solving problems and using data to help organizations improve their operations.</p>
+    </section>
 
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>CIS:641 - SYSTEMS ANALYSIS AND DESIGN</h3>
+            <h4>CarChoice: Discover Your Ideal Four-Wheeler</h4>
+            <p><strong>Objective:</strong> To create an innovative e-commerce platform for discovering ideal four-wheelers.</p>
+            <p><strong>Target Audience:</strong> Car buyers seeking comprehensive information on both new and used vehicles.</p>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Detailed specifications, pros and cons, and user reviews for various car models.</li>
+                <li>User-friendly interface for easy comparison of different vehicles.</li>
+                <li>Focus on both used and certified pre-owned options, promoting sustainability.</li>
+            </ul>
+            <p><strong>Unique Selling Proposition:</strong> Emphasizes sustainable choices in a market dominated by new car sales.</p>
+            <p><strong>Technical Stack:</strong> Developed using Angular, NodeJS, MongoDB, and ExpressJS.</p>
+            <p><strong>Goal:</strong> To enhance the online shopping experience and empower users to make informed purchasing decisions.</p>
+        </div>
+        <div class="project">
+            <h3>STA:518 - STATISTICAL COMPUTING AND GRAPHICS WITH R</h3>
+            <h4>Analysis of Presidential Elections Data: County-Level in USA</h4>
+            <p>The project involved a comprehensive analysis of U.S. presidential elections data at the county level, using the statistical programming language R.</p>
+            <p>Data collection and preprocessing were crucial components, involving the integration of diverse datasets, including election results and demographic information.</p>
+            <p>Exploratory data analysis was conducted, uncovering trends, correlations, and distributions, with visualizations like scatter plots, bar charts, and interactive maps.</p>
+        </div>
+    </section>
+
+    <section class="experience">
+        <h2>Professional Experience</h2>
+        <div class="job">
+            <h3>Senior Data Engineer</h3>
+            <h4>Accenture (September 2019 - June 2023)</h4>
+            <ul>
+                <li>Developed and maintained data pipelines and ETL processes.</li>
+                <li>Supported clients in evaluating and prioritizing work through data analysis and reporting.</li>
+                <li>Led a team of data analysts, providing mentorship and guidance.</li>
+                <li>Integrated with external systems using SQL to optimize data management.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>GIS Engineer</h3>
+            <h4>RMSI (August 2018 - August 2019)</h4>
+            <ul>
+                <li>Utilized GIS technology to analyze and visualize spatial data.</li>
+                <li>Created detailed maps and reports to support planning and decision-making.</li>
+                <li>Collaborated with stakeholders to gather requirements and deliver GIS solutions.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Network Engineer</h3>
+            <h4>Airtel (August 2017 - July 2018)</h4>
+            <ul>
+                <li>Managed and maintained network infrastructure.</li>
+                <li>Conducted troubleshooting and resolved connectivity issues.</li>
+                <li>Collaborated with cross-functional teams to enhance network operations.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="education">
         <h2>Education</h2>
-        <ul>
-            <li>Grand Valley State University - Master's in Applied Computer Science</li>
-            <li>Jawaharlal Nehru Technological University - Bachelor's in Electronics and Communication Engineering</li>
-        </ul>
+        <div class="school">
+            <h3>Grand Valley State University</h3>
+            <h4>Masters in Applied Computer Science</h4>
+            <p>Computer Science - Database Management Badge from August 2023 - April 2025</p>
+            <p>GPA: 4.0</p>
+        </div>
+        <div class="school">
+            <h3>Godavari Institute of Engineering and Technology</h3>
+            <h4>Electronics and Communication Engineering</h4>
+            <p>September 2013 - May 2017</p>
+            <p>GPA: 3.8</p>
+        </div>
+    </section>
 
-        <h2>Achievements</h2>
+    <section class="skills">
+        <h2>Technical Skills</h2>
         <ul>
-            <li>Successfully managed a team of 17 as a Senior Data Engineer, overseeing ticket processing, policy verification, and providing international support for Ireland-Dublin.</li>
-            <li>Developed program operational and dashboard cadence for monitoring monthly and quarterly data-driven progress as a Data Analyst, integrating with external systems using Connect SQL.</li>
-            <li>Conducted remote knowledge sessions and virtual meetings to enhance team collaboration and solve data-related problems efficiently.</li>
-        </ul>
-
-        <h2>Completed Projects</h2>
-        <ul>
-            <li><b>Predictive Maintenance for Network Infrastructure</b> - Designed a big data pipeline to process logs and usage statistics for predicting potential network failures, minimizing downtime using Spark/Flink.</li>
-            <li><b>5G Network Simulation with Edge Computing Support</b> - Developed a simulation model to explore the benefits of edge computing in 5G networks, focusing on use cases like autonomous vehicles and augmented reality.</li>
-            <li><b>Vehicle Inventory System</b> - Developed a platform that allows users to compare four-wheeler car brands between the USA and India, providing detailed information for informed decision-making.</li>
-            <li><b>Autonomous Vehicle Mapping Project</b> - Plotted features on roads such as grids, curbs, water pumps, and developed maps for autonomous vehicles during my time at RMSI PVT LTD.</li>
+            <li>Proficient in Python and JavaScript (Node.js).</li>
+            <li>Experienced in web development (Angular, Express.js, HTML, CSS).</li>
+            <li>Skilled in MongoDB and SQL for data management.</li>
+            <li>Knowledgeable in data engineering tools for ETL processes.</li>
+            <li>Experienced in GIS for analysis, mapping, and visualization.</li>
+            <li>Competent in network infrastructure management.</li>
+            <li>Familiar with version control systems (Git).</li>
+            <li>Strong leadership and mentorship abilities.</li>
         </ul>
     </section>
 
+    <section class="interests">
+        <h2>Interests</h2>
+        <p>Traveling: I cherish the opportunity to explore new places and immerse myself in diverse cultures. Each journey enriches my personal experiences.</p>
+        <p>Community Engagement: I value spending quality time with children and the elderly, learning from their unique experiences.</p>
+        <p>Nature Enthusiast: I enjoy nature-related activities, appreciating the peace and inspiration that the outdoors provides.</p>
+    </section>
+
     <footer>
-        <p>©️ 2024 Rohita Jahnavi Jala. All rights reserved.</p>
+        <p>&copy; 2024 Rohita Jahnavi Jala</p>
     </footer>
 </body>
 </html>
